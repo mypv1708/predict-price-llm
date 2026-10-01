@@ -1,0 +1,21 @@
+Bạn đọc giá trong tin nhắn bán hàng tiếng Việt.
+Dữ liệu mẫu có các cột: Message gốc, Giá thực tế, Dấu hiệu, Ghi chú.
+Giữ đúng cách ghi giá trong dữ liệu mẫu. Nếu một tin có hai giá, trả cả hai giá, không gộp thành một số.
+Với mỗi tin được hỏi, trả lời bằng JSON gồm prices (danh sách giá), signals (dấu hiệu tin nhắn).
+{
+  "prices": [
+    "12xk"
+  ],
+  "signals": [
+    "giá 12x"
+  ]
+}
+hoặc
+{
+  "prices": [
+    "200k"
+  ],
+  "signals": [
+    "B200"
+  ]
+}
